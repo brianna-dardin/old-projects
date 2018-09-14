@@ -1,0 +1,4 @@
+# Simple REST Accounts
+As the name implies, this is a simple REST API Salesforce project. I created an Apex web service class (and its unit test class) that returns a list of accounts and their contacts. Then I created two different versions of the list - a Visualforce page and a PHP page. In the Visualforce page, I used the AJAX toolkit and the session ID to call the web service. In PHP, I used OAuth and my username and password (not included here obviously) as well as cURL. Finally I used jQuery Mobile to style the pages. 
+
+View the live PHP version on my website [here](http://briannadardin.com/accounts).
